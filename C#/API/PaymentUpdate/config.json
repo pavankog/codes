@@ -1,0 +1,6 @@
+﻿{
+  "Token": "https://login.microsoftonline.com/ksag.onmicrosoft.com/oauth2/v2.0/token",
+  "PendingtransactionsUrl": "https://test.tnatc.org/OnlineRenewal/KS/Services/License/api/License/pendingtransactions",
+  "InvoiceUrl": "https://api-beta.kda.ks.gov/testing/aims/api/ar/invoice",
+  "SavepaymentsUri": "https://test.tnatc.org/OnlineRenewal/KS/Services/Internal/api/Cart/SubmitPayments"
+}
