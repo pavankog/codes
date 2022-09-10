@@ -1,18 +1,15 @@
 <template>
   <div class="hello">
-    <StyleVue />
   </div>
 </template>
 
 <script>
-import StyleVue from '@/Style/Style.vue';
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
   },
   components: {
-    StyleVue
   }
 }
 </script>
