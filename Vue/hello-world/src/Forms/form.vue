@@ -1,5 +1,7 @@
 <template>
-    <form>
+    {{getemployeeCount}} 
+    {{this.count}}
+    <div>
         <input v-model="employee.name" type="text" />
         <input type="radio" v-model="employee.chooseColor" value='red' />red
         <input type="radio" v-model="employee.chooseColor" value='blue' />blue
@@ -11,26 +13,32 @@
         </div>
         <button type="button" @click="addFonts">add font size</button>
 
-    </form>
+    </div>
 </template>
 <script>
 export default {
     name: 'formComponent',
     data() {
         return {
-            employee: { name: 'test', chooseColor: 'black', BackGroudcolorGroup: {}, addClass: false }
+            employee: { name: 'test', chooseColor: 'black', BackGroudcolorGroup: {}, addClass: false },
+            count:5
         }
     },
     methods: {
-        changeWidth(size) {
+        changeWidth() {
             this.employee.addClass = true;
         },
         addFonts() {
-
+  this.count=6;
             this.employee.addClass = true;
         },
         addBackGroundColor() {
             this.employee.BackGroudcolorGroup = { 'background-color': 'green' }
+        }
+    },
+    computed:{
+        getemployeeCount(){
+            return this.count;
         }
     }
 }
