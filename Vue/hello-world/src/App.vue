@@ -1,15 +1,15 @@
 <template>
   <div>
-  <Form />
+  <Parent></Parent>
 </div>
 </template>
 
 <script>
-import Form from './Forms/form.vue';
+import Parent from './parentchild/parent.vue';
 export default {
   name: 'App',
   components: {
-    Form
+    Parent
 }
 }
 </script>
