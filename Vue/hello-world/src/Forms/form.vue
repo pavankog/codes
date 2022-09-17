@@ -22,7 +22,7 @@ export default {
         }
     },
     methods: {
-        changeWidth(size) {
+        changeWidth() {
             this.employee.addClass = true;
         },
         addFonts() {
