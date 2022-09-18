@@ -47,8 +47,10 @@ Projects/CoreWebApp/obj/Debug/netcoreapp3.1/staticwebassets/CoreWebApp.StaticWeb
 /C#/API/PaymentUpdate/.vs/PaymentUpdate/v17
 /C#/API/PaymentUpdate/.vs/PaymentUpdate/FileContentIndex
 /C#/API/PaymentUpdate/obj
-/C#/API/PaymentUpdate/.vs/PaymentUpdate/DesignTimeBuild
-node_modules/asynckit/bench.js
+/C#/API/PaymentUpdate/.vs/PaymentUp
+
+ate/DesignTimeBuild
+node_modules
 node_modules/asynckit/index.js
 node_modules/asynckit/LICENSE
 node_modules/asynckit/package.json
