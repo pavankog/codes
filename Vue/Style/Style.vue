@@ -20,7 +20,7 @@ export default {
      fontSize:'50'
    }
   },
-  name: "HelloWorld",
+  name: "stylecomponent",
   props: {
     msg: String,
   },
